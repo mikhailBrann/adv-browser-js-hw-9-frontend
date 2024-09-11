@@ -1,0 +1,32 @@
+body {
+    color: #999;
+    margin: 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+.btn {
+    box-sizing: border-box;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.btn:hover {
+    box-shadow: 0 0 9px silver;
+}
+
+.red-elem {
+    color: #fff;
+    background-color: red;
+}

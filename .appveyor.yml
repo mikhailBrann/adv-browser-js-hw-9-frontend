@@ -1,0 +1,19 @@
+image: Ubuntu2204  # образ для сборки
+
+stack: node 20  # окружение
+
+branches:
+  only:
+    - main
+
+cache: node_modules  # кеширование
+
+install:
+  - yarn  # команда установки зависимостей
+
+build: on  # отключаем встроенную в appveyor систему сборки
+
+build_script:
+  - yarn build   # команда сборки
+
+
