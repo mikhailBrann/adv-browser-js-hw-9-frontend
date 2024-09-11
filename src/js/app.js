@@ -6,6 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const collapseWidget = new CollapseWidget();
 
   parentNodeElem.appendChild(collapseWidget.element);
-
-  
 });
